@@ -26,7 +26,7 @@ public:
 
 int main()
 {
-    vector<int> nums = {2,7,11,15}; //
+    vector<int> nums = {2,7,11,15}; //Example vector
     int target = 9;
 
     Solution s;
@@ -40,4 +40,5 @@ int main()
 
     return 0;
 }
+
     
