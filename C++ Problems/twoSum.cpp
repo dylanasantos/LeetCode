@@ -8,6 +8,8 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> stored_nums;
+        stored_nums.reserve(nums.size());
+
         for(int i = 0; i < nums.size(); i++)
         {
             int search_val = target - nums[i];
@@ -26,7 +28,7 @@ public:
 
 int main()
 {
-    vector<int> nums = {2,7,11,15}; //Example vector
+    vector<int> nums = {2,7,11,15}; //
     int target = 9;
 
     Solution s;
@@ -40,5 +42,4 @@ int main()
 
     return 0;
 }
-
     
